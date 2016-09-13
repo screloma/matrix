@@ -1,5 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
 h1 {
-    font-size: 30px;
+    position: absolute;
+    color: #aaa;
+    top: 45%;
+    left: 35%;
+    font-family: 'Slabo 27px', serif;
+    font-size: 70px;
     margin: 0 auto;
     text-align: center;
+    transition: 0.5s box-shadow,
+                0.5s color;
 }
+
+h1:hover{
+    box-shadow: 0 -0.1em #003366 inset,
+                0 -1.5em #d2d2d2 inset;
+
+}
+
