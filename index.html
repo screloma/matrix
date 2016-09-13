@@ -4,7 +4,25 @@
     <title>Screloma</title>
     <link href="style.css" rel="stylesheet">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-    <meta charset="utf-8">
+    <meta charset="utf-8"> 
+    <script type="text/javascript">
+        $(function() {
+                    //We initially hide the all dropdown menus
+                    $('#dropdown_nav li').find('.sub_nav').hide();
+
+                    //When hovering over the main nav link we find the dropdown menu to the corresponding link.
+                    $('#dropdown_nav li').hover(function() {
+                        //Find a child of 'this' with a class of .sub_nav and make the beauty fadeIn.
+                        $(this).find('.sub_nav').fadeIn(400);
+                    }, function() {
+                        //Do the same again, only fadeOut this time.
+                        $(this).find('.sub_nav').fadeOut(100);
+                    });
+                });
+                </script>
+
+</script>
+
 </head>
 <body>
     <header class="header">
@@ -44,7 +62,7 @@
             </ul>
         </nav>
     </div>
-    </header>
+</header>
 
     <section id="wrapper">
         <div id="middle"></div>
