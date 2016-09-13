@@ -4,4 +4,6 @@ p {
 
 ul {
     list-style: none;
+    background:  #336699;
+    padding: 10px;
 }
