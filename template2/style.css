@@ -82,9 +82,9 @@ li {
 
 .socials {
     position: absolute;
-    right: 1%;
-    width: 20%;
-    top: 20%;
+    right: 5%;
+    width: 15%;
+    top: 15%;
     display: flex;
     flex-direction: row;
     align-items: baseline;
