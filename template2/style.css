@@ -85,6 +85,10 @@ li {
     right: 1%;
     width: 20%;
     top: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
 }
 
 .socials a {
@@ -103,14 +107,14 @@ li {
 
 .facebook {
     background: #3b5998;
-    padding: 15px 15px 4px 15px;
+    padding: 9px 15px 4px 15px;
     position: relative;
     top: 3px;
 }
 
 .pink {
     background: #ea4c89;
-    padding: 12px 12px 7px 12px;
+    padding:13px 12px 7px 12px;
     position: relative;
 
 }
@@ -123,7 +127,7 @@ li {
 .leaf {
     background: #598728;
     top: 100%;
-    padding: 12px 12px 7px 12px; 
+    padding: 13px 12px 7px 12px; 
 }
 
 .search-btn {
