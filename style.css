@@ -12,6 +12,10 @@ h1 {
 
 }
 
+body {
+    margin: 0px;
+}
+
 html {
         background-image: url('aa.png');
         background-position: center;
@@ -30,7 +34,7 @@ html {
     background-color: #000000;
     font-style: normal;
     font-size: 30px;
-    padding: 25px;
+    padding: 15px;
     text-decoration: none;
     border-top: 1px solid #8c8b8b;
     border-bottom: 1px solid #fff;
@@ -44,10 +48,12 @@ html {
 
 .sidebar {
 background-color: #000000;
+    margin-top: 0px;
     display: flex;
+    flex: 0 0 20%;
     flex-direction: column;
     justify-content: flex-start;
-    width: 30%;
+    width: 35%;
     height: 790px;
 }
 
