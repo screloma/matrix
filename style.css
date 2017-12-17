@@ -24,12 +24,18 @@ h1 {
 
 html {
     background-image: url('aa.png');
-    background-position: center;
+    background-position: top;
     background-color: #000000;
 }
 
 body {
     margin: 0;
+}
+
+ul {
+    font-size: 30px;
+    font-weight: bold;
+    margin:0;
 }
 
 .headlink{
@@ -68,16 +74,26 @@ wrapper {
     display: flex;
 }
 
-.merzbow {
-}
-
-.art .header {
+.art .header; {
     margin-top: 10px;
     width: 100%;
     height: 20%;
 }
 
-.gallery {
+.hypno img {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    bottom: -200px;
+    left: 100%;
+    transition: 0.4s;
+}
+
+.hypno img:hover {
+    border: 20px solid white;
+}
+
+.gallery, .hypno {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -104,7 +120,7 @@ wrapper {
 
 article {
     color: #ffffff;
-    margin-left: 1px;
+    margin-left: 20px;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
 }
@@ -152,6 +168,10 @@ table{
     margin-left: 60%;
     margin-right: 0px;
     padding: 5px;
+}
+
+th {
+    background-color: black;
 }
 
 th, td {
