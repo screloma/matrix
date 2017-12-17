@@ -30,6 +30,7 @@ html {
 }
 
 .headlink{
+    transition: 0.25s;
     text-align: center;
     font-family: "Poppins", sans-serif;
     color: #ffffff;
