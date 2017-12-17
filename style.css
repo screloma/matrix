@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
-header, aside {
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
+header, aside, .header {
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
     color: #000000;
@@ -9,31 +11,31 @@ h1 {
     font-size: 50px;
     text-align: center;
     font-weight: bold;
-
+    color: #ffffff;
 }
 
 body {
     margin: 0px;
+    max-width: 100%;
 }
 
 html {
-        background-image: url('aa.png');
-        background-position: center;
+    background-image: url('aa.png');
+    background-position: center;
     background-color: #000000;
 }
 
 .merzbow {
-    background-color: #000000;
     background-position: center;
 }
 
 .headlink{
     text-align: center;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     color: #ffffff;
     background-color: #000000;
     font-style: normal;
-    font-size: 30px;
+    font-size: 50px;
     padding: 15px;
     text-decoration: none;
     border-top: 1px solid #8c8b8b;
@@ -54,13 +56,36 @@ background-color: #000000;
     flex-direction: column;
     justify-content: flex-start;
     width: 35%;
-    height: 790px;
+    height: 110%;
 }
 
 wrapper {
-    height: 800px;
+    height: 80%;
+    display: flex;
+}
+
+.art .header {
+    width: 100%;
+    height: 20%;
+}
+
+.gallery {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    position: absolute;
+    top:30%;
+    left: 25%;
+    width: 30%;
+}
+
+.gallery img {
+    margin-right: 20px;
+    transition: 0.25s;
+}
+
+.gallery img:hover {
+    border: 10px solid black;
 }
 
 .merzbow  h1 {
@@ -79,8 +104,27 @@ article {
     font-size: 20px;
 }
 
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.header {
+
+}
+
+.gallery {
+}
 .social>img{
-    width: 75px;
+    transition: 0.25s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.social>img:hover {
+    background-color: white;
 }
 
 .socials {
@@ -95,15 +139,17 @@ article {
 }
 
 footer {
-      position: absolute;
-      background-color: #000000;
-  right: 0;
-  bottom: 0;
-  left: 0;
+    height: 120px;
+    position: absolute;
+    background-color: black;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 table{
-    margin:auto;
+    margin-left: 60%;
+    margin-right: 0px;
     padding: 5px;
 }
 
@@ -111,3 +157,4 @@ th, td {
     border: 1px solid white;
     padding: 5px;
 }
+
