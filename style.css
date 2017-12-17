@@ -3,8 +3,16 @@
 
 header, aside, .header {
     font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+    font-size: px;
     color: #000000;
+}
+
+p {
+    text-indent: 100px;
+    word-wrap: normal;
+    word-break: normal;
+    hyphens: none;
+    width: 80%
 }
 
 h1 {
@@ -14,23 +22,18 @@ h1 {
     color: #ffffff;
 }
 
-body {
-    margin: 0px;
-    max-width: 100%;
-}
-
 html {
     background-image: url('aa.png');
     background-position: center;
     background-color: #000000;
 }
 
-.merzbow {
-    background-position: center;
+body {
+    margin: 0;
 }
 
 .headlink{
-    transition: 0.25s;
+    transition: 0.40s;
     text-align: center;
     font-family: "Poppins", sans-serif;
     color: #ffffff;
@@ -65,7 +68,11 @@ wrapper {
     display: flex;
 }
 
+.merzbow {
+}
+
 .art .header {
+    margin-top: 10px;
     width: 100%;
     height: 20%;
 }
@@ -89,9 +96,6 @@ wrapper {
     border: 10px solid black;
 }
 
-.merzbow  h1 {
-    font-size: 35px;
-}
 .merzbow > article {
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -108,10 +112,6 @@ article {
 img {
     width: 200px;
     height: 200px;
-}
-
-.header {
-
 }
 
 .gallery {
