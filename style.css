@@ -6,8 +6,9 @@ header, aside {
 }
 
 h1 {
+    font-size: 50px;
     text-align: center;
-    font-weight: normal;
+    font-weight: bold;
 
 }
 
@@ -23,12 +24,13 @@ html {
 }
 
 .headlink{
+    text-align: center;
     font-family: "Poppins";
     color: #ffffff;
     background-color: #000000;
     font-style: normal;
     font-size: 30px;
-    padding: 5px;
+    padding: 25px;
     text-decoration: none;
     border-top: 1px solid #8c8b8b;
     border-bottom: 1px solid #fff;
@@ -36,16 +38,16 @@ html {
 
 .headlink:hover{
     text-decoration: underline;
+    background-color: #A52A2A;
+    font-weight: bold;
 }
 
 .sidebar {
 background-color: #000000;
-    margin-right: 2px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     width: 30%;
-    margin-top: 1px;
     height: 790px;
 }
 
@@ -72,10 +74,17 @@ article {
 }
 
 .social>img{
-    width: 50px;
+    width: 75px;
+}
+
+.socials {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
 }
 
 .social{
+    margin-right: 40%;
     margin-left: 50%;
 }
 
@@ -89,7 +98,6 @@ footer {
 
 table{
     margin:auto;
-    border: 1px solid white;
     padding: 5px;
 }
 
