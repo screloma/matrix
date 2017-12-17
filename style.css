@@ -17,6 +17,11 @@ html {
     background-color: #000000;
 }
 
+.merzbow {
+    background-color: #000000;
+    background-position: center;
+}
+
 .headlink{
     font-family: "Poppins";
     color: #ffffff;
@@ -34,14 +39,14 @@ html {
 }
 
 .sidebar {
-
+background-color: #000000;
     margin-right: 2px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 30%;
     margin-top: 1px;
-    height: 500px;
+    height: 790px;
 }
 
 wrapper {
@@ -50,11 +55,20 @@ wrapper {
     flex-direction: row;
 }
 
+.merzbow  h1 {
+    font-size: 35px;
+}
+.merzbow > article {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
 article {
     color: #ffffff;
     margin-left: 1px;
     font-family: "Poppins", sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .social>img{
@@ -71,4 +85,15 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+table{
+    margin:auto;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 5px;
 }
