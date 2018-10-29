@@ -1,0 +1,51 @@
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 80%;
+    }
+}
+
+.navbar{ background:#F97300;}
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:#fff !important;}
+
+
+html, body {
+  height:100%;
+}
+body {
+  display:flex;
+  flex-direction: column;
+}
+
+
+.slide{
+	width: auto;
+	height: 600px;
+}
+
+.main-container{
+}
+
+.main-container .row{
+	height: 300px;
+}
+
+.info-row,
+.col{
+	border-width: 3px !important;
+}
+
+.col.text-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+mark{
+	background-color: green;
+}
