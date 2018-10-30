@@ -23,17 +23,14 @@ body {
   flex-direction: column;
 }
 
-.img-container{
-	margin-top: 100px;
+.img-container,
+.main-container{
+	margin-top: 25px;
 }
 
 .slide{
 	width: auto;
 	height: 600px;
-}
-
-.main-container{
-	margin-top: 100px;
 }
 
 .main-container.col{
