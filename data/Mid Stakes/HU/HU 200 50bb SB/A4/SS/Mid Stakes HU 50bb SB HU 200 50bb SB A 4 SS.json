@@ -1,0 +1,1 @@
+[{"id": 2132254, "card1": "A", "card2": "4", "card3": "3", "card4": "2", "doubleSuited": false, "goodSuit": false, "fold": 0.7, "call": 0.3, "callCall": 0.3}, {"id": 2138541, "card1": "A", "card2": "4", "card3": "3", "card4": "2", "doubleSuited": false, "goodSuit": true, "call": 0.67585, "raise": 0.32415, "raiseCallIP": 0.32415, "raiseCallOP": 0.32415, "callCall": 0.67585}]
